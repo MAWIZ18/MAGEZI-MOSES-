@@ -106,7 +106,7 @@ class Oven:
 
 if __name__ == "__main__":
 
-    my_oven = Oven("LG", "GTR", 30)
+    my_oven = Oven("LG", "Gas", 30)
 
 
 
