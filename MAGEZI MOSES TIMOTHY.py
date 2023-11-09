@@ -98,21 +98,3 @@ class Oven:
 
         return f"{self.brand} {self.model}, Capacity: {self.capacity}L"
 
-
-if __name__ == "__main__":
-
-    my_oven = Oven("LG", "GTR", 30)
-
-
-
-    print(my_oven)
-
-
-
-    my_oven.power_on()
-
-    my_oven.set_temperature(180)
-
-    my_oven.set_timer(30)
-
-    my_oven.start_cooking()
