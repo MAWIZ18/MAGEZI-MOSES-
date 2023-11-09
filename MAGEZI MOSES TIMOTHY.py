@@ -99,14 +99,9 @@ class Oven:
         return f"{self.brand} {self.model}, Capacity: {self.capacity}L"
 
 
-
-
-
-# Example Usage
-
 if __name__ == "__main__":
 
-    my_oven = Oven("LG", "Gas", 30)
+    my_oven = Oven("LG", "GTR", 30)
 
 
 
